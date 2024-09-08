@@ -5,6 +5,4 @@ ODIN RECIPE
  What are you waiting for? Check us out!
 
  <a href="http://www.google.com">Google</a>
-
-HAKDOG
  
