@@ -1,8 +1,71 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+* {
+    background-color: lightgrey;
+    text-align: center;
+}
 
-body {
 
-    font-family: "Protest Guerrilla";
+.title {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     
+}
+
+
+.beef1,
+.beef2,
+.pork {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 50px;
+    border-width: 3px;
+    ;
+}
+
+.beef1 {
+    background-color: blue;
+    color: white;
+
+
+}
+
+.beef2 {
+    background-color: rgb(200, 219, 23);
+    color: rgb(10, 10, 10);
+
+}
+
+.pork {
+    background-color: rgb(219, 23, 23);
+    color: rgb(255, 255, 255);
+
+}
+
+.container {
+    margin: 0 auto;
+    width: 70%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.container img {
+    margin-top: 100px;
+    width: 20%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50px;
+    border: 5px solid rgb(22, 1, 1);
+    transition: all ease-in-out 0.5s;
+
+}
+
+.container img.hover {
+    width: 25%;
+}
+
+.container2 button {
+    margin: 65px;
+    margin-top: 30px;
 }
