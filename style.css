@@ -1,14 +1,16 @@
 
+
 * {
     background-color: lightgrey;
     text-align: center;
+    font-size: 25px;
 }
 
 
-.title {
+.title {;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+    font-family: josefin sans;
+    font-size: 100px;
 }
 
 
@@ -26,18 +28,20 @@
     background-color: blue;
     color: white;
 
-
 }
 
 .beef2 {
     background-color: rgb(200, 219, 23);
     color: rgb(10, 10, 10);
+    align-items: center;
+    margin-top: 25px;
+
 
 }
 
 .pork {
     background-color: rgb(219, 23, 23);
-    color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);    
 
 }
 
@@ -51,7 +55,8 @@
 }
 
 .container img {
-    margin-top: 100px;
+    margin: 30px;
+    margin-top: 50px;
     width: 20%;
     height: 100%;
     object-fit: cover;
@@ -61,11 +66,7 @@
 
 }
 
-.container img.hover {
+.container img:hover {
     width: 25%;
-}
-
-.container2 button {
-    margin: 65px;
-    margin-top: 30px;
+    transform: scale(1.1);
 }
