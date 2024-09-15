@@ -6,6 +6,7 @@
   font-size: 25px;
 }
 
+.bicolexpress,
 .kaldereta,
 .bulalo,
 .title {
@@ -56,9 +57,10 @@
   font-family: "Josefin Sans";
 }
 
+.displaybicolexpress,
 .display,
 .displaykaldereta {
-  font-size: 22px;
+  font-size: 20px;
 }
 
 img {
