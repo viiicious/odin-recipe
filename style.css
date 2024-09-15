@@ -1,46 +1,85 @@
-
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Nanum+Myeongjo:wght@400;700;800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
-    background-color: lightgrey;
-    text-align: center;
-    font-size: 25px;
+  background-color: #d6dbb2;
+  text-align: center;
+  font-size: 25px;
 }
 
-
-.title {;
-    text-align: center;
-    font-family: josefin sans;
-    font-size: 80px;
+.bulalo,
+.title {
+  text-align: center;
+  font-family: "Josefin Sans";
+  font-size: 80px;
 }
 
-.about, .menu {
-    font-family: cormorant;
-    font-size: 25px;
-    font-weight: bold;
+.about,
+.menu {
+  font-family: "Cormorant";
+  font-size: 25px;
+  font-weight: bold;
 }
 
 .container {
-    margin: 0 auto;
-    width: 70%;
-    height: 450px;
-    display: flex;
-    justify-content: center;
-    gap: 10px;
+  margin: 0 auto;
+  width: 70%;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
 }
 
 .container img {
-    margin: 30px;
-    margin-top: 20px;
-    width: 20%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 50px;
-    border: 5px solid rgb(22, 1, 1);
-    transition: all ease-in-out 0.5s;
-
+  margin: 30px;
+  margin-top: 26px;
+  width: 20%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50px;
+  border: 5px solid rgb(22, 1, 1);
+  transition: all ease-in-out 0.5s;
 }
 
 .container img:hover {
-    width: 25%;
-    transform: scale(1.1);
+  width: 25%;
+  transform: scale(1.1);
+}
+
+.description,
+.basicingredients,
+.vegetables,
+.seasonings,
+.others {
+  font-family: josefin sans;
+}
+
+.display {
+  font-size: 20px;
+}
+
+img {
+  width: 30%;
+  height: 250px;
+  border-radius: 100px;
+  border: 3px solid black;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 20px;
+  margin: 20px 0;
+  font-family: "Roboto Condensed";
+}
+
+ul li {
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #d6dbb2;
+  border: 1px solid #4e5327;
+  font-size: 18px;
+}
+
+ul li:hover {
+  background-color: #aeb766;
+  cursor: pointer;
 }
